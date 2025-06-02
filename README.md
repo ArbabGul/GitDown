@@ -22,4 +22,4 @@ A Python script to download files or entire folders from GitHub repositories wit
 - Run the script
 ```
 python gitdown.py
-'''
+```
