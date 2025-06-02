@@ -23,3 +23,7 @@ A Python script to download files or entire folders from GitHub repositories wit
 ```
 python gitdown.py
 ```
+
+## Authors
+
+- [@CodeeWithArbab](https://github.com/CodeeWithArbab)
