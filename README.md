@@ -1,18 +1,25 @@
-# GitDown
+# GitHub Downloader
 
-GitDown is python base script it's use to download any folder or file from github 
+A Python script to download files or entire folders from GitHub repositories with progress tracking.
+
+## Features
+
+- Download single files or entire folders from GitHub
+- Progress bar with download percentage
+- Customizable download location
+- Supports both `main` and other branches
+- Handles nested folder structures
+- Simple command-line interface
 
 ## Requirements
 
-project requirements is here..
-
-```bash
-pip install requests
-pip install tqdm
-```
+- Python 3.x
+- `requests` library
+- `tqdm` library
 
 ## Usage
-It's very easy to use this script
-```python
-python gitdown.py
+
+- Run the script
 ```
+python gitdown.py
+'''
