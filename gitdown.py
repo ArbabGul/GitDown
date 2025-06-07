@@ -118,10 +118,17 @@ def FolderDown(owner, repo, branch, folder_path, path):
         return False
 
 def main():
-    print("\n                                          GitHub Downloader ")
-    print("                      ---------  Download files or folders from GitHub  ---------")
-    print("                                 ------- Developed by: Arbab Gul ------- ")
-    
+    print(r'''
+            ██████╗ ██╗████████╗    ██████╗  ██████╗ ██╗    ██╗███╗   ██╗██╗      ██████╗  █████╗ ██████╗ ███████╗██████╗ 
+            ██╔════╝ ██║╚══██╔══╝    ██╔══██╗██╔═══██╗██║    ██║████╗  ██║██║     ██╔═══██╗██╔══██╗██╔══██╗██╔════╝██╔══██╗
+            ██║  ███╗██║   ██║       ██║  ██║██║   ██║██║ █╗ ██║██╔██╗ ██║██║     ██║   ██║███████║██║  ██║█████╗  ██████╔╝
+            ██║   ██║██║   ██║       ██║  ██║██║   ██║██║███╗██║██║╚██╗██║██║     ██║   ██║██╔══██║██║  ██║██╔══╝  ██╔══██╗
+            ╚██████╔╝██║   ██║       ██████╔╝╚██████╔╝╚███╔███╔╝██║ ╚████║███████╗╚██████╔╝██║  ██║██████╔╝███████╗██║  ██║
+            ╚═════╝ ╚═╝   ╚═╝       ╚═════╝  ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═══╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝
+                        This script allows users to download files or folders from GitHub repositories.
+                                                Auther: Arbab Gul
+                                                  Version: v2.0
+    ''')
     # Get GitHub URL
     while True:
         github_url = input("\nEnter GitHub URL: ").strip()
