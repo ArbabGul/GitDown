@@ -16,13 +16,13 @@ A powerful Python script to effortlessly download files or entire folders from G
 
 - Python 3.x
 - `requests` library
-- `tqdm` library
+- `progress` library
 
 ## Usage
 
 - Run the script
 ```
-python gitdown.py
+python GITDownloader.py
 ```
 
 ## Authors
