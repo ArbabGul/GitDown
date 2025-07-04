@@ -27,4 +27,4 @@ python GITDownloader.py
 
 ## Authors
 
-- [@ArbabGul](mailto:contact@example.com)
+- [@ArbabGul](mailto:codewitharbab@gmail.com)
